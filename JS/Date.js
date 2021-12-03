@@ -1,6 +1,9 @@
-let ageEl = TestHtml.getElementById("age");
+document.getElementById("age").innerHTML = calculate_age(new Date(2008, 1, 19));
+function calculate_age(dob){ 
+    var diff_ms = Date.now() - dob.getTime();
+    var age_dt = new Date(diff_ms); 
+  
+    return Math.abs(age_dt.getUTCFullYear() - 1970);
+}
 
-setInterval(() => {
-    let time = dayjs().diff(dayjs(1044801960000), 'year', true);
-    ageEl.innerText = time.toString().substring(0, 12);
-}, 50);
+
