@@ -1,0 +1,22 @@
+@import url('https://fonts.google.com/share?selection.family=Karla:wght@300');
+body{
+    text-align: center;
+    color: white;
+    font-family: 'Karla', Arial, sans-serif;
+}
+
+body figure{
+    text-align: center;
+}
+
+.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
+html{
+    background-color: black;
+}
+
