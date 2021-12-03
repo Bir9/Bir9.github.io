@@ -20,3 +20,15 @@ html{
     background-color: black;
 }
 
+
+.lang-button{
+    border: none;
+    background-color: inherit;
+    padding: 0px 0px;
+    font-size: 26px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+.lang-button:hover {background: #30303a;}
