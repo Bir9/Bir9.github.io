@@ -3,6 +3,14 @@ body{
     text-align: center;
     color: white;
     font-family: 'Karla', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+body p{
+    padding: 0px, 0px;
+    margin: 0px;
+    line-height: 20px;
 }
 
 body figure{
@@ -10,10 +18,10 @@ body figure{
 }
 
 .center{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 html{
@@ -28,6 +36,9 @@ html{
     font-size: 26px;
     cursor: pointer;
     display: inline-block;
+    margin : 0px;
+    line-height : 20px;
+
 }
 
 
