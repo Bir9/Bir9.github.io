@@ -25,13 +25,14 @@ body figure{
 }
 
 html{
-    background-color: black;
+    background-color: rgb(20, 20, 20);
 }
 
 
-.lang-button{
+.button{
     border: none;
     background-color: inherit;
+    position: relative;
     padding: 0px 0px;
     font-size: 26px;
     cursor: pointer;
@@ -42,4 +43,25 @@ html{
 }
 
 
-.lang-button:hover {background: #30303a;}
+.button:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: currentColor;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+}
+
+.button:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+body a{
+    text-decoration: none;
+}
