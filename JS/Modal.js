@@ -1,5 +1,5 @@
 // Get the button that opens the modal
-var btn = document.querySelectorAll(".button");
+var btn = document.querySelectorAll(".lang-button");
 
 // All page modals
 var modals = document.querySelectorAll('.modal');
