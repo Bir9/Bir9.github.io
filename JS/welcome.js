@@ -74,7 +74,7 @@
       * Start the animation and rener the lines depending on their data attributes.
       */
      async start() {
-         setTimeout(function () {document.getElementById('termynal').style.display='none'}, 16000);
+         setTimeout(function () {document.getElementById('termynal').style.display='none'}, 9000);
 
          await this._wait(this.startDelay);
  

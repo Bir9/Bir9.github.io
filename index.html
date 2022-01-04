@@ -8,6 +8,11 @@
         <title>Bir9</title>
     <head>
     <body>
+        <div id="termynal" data-termynal>
+            <span data-ty="input">./Portfolio</span>
+            <span data-ty>loading...</span>
+            <span data-ty="progress"></span>
+        </div>
         <h1 id = "intro" class = "top"> [Bir9]</h1>
         <h2>
         I am a 
@@ -33,13 +38,13 @@
         <span id="Java" class="lang-button" href = "#javaModal" style="color:#c76a00;" data-panel="nodejs">Java<span class="underline" style="background-color:#c76a00;"></span></span>, and 
             <div id = "javaModal" class = "modal">
                 <div class = "modal-content">
-                    <p>Java was the first langauge I ever learned. I use this language for mobile development with <a style="color:#c76a00;" target = "_blank" class = "button" href = "https://developer.android.com/studio">Android Studio</a> IDE as well as some desktop grapchic interpreters overall I would call myself <span style="color: #c76a00">proficent</span> in this language</p></p>
+                    <p>Java was the first langauge I ever learned. I use this language for mobile development with the<a style="color:#c76a00;" target = "_blank" class = "button" href = "https://developer.android.com/studio">Android Studio</a> IDE as well as some desktop grapchic interpreters overall I would call myself <span style="color: #c76a00">proficient</span> in this language</p></p>
                 </div>    
             </div>
         <span id="others" class="lang-button" href = "#othersModal" style="color:#00c75a;" data-panel="nodejs">some others<span class="underline" style="background-color:#00c75a;"></span></span>
             <div id = "othersModal" class = "modal">
                 <div class = "modal-content">
-                    <p>To be added</p>
+                    <p>I have also worked with some other languages very loosely this includes<span style="color:#00c75a;">C++</span> aswell as <span style="color:#00c75a;">HTML/CSS/JS</span>, in fact this very portfolio is the first project I created using these 3 languages</p>
                 </div>
             </div>  
         </h2>
@@ -51,10 +56,7 @@
         <h2>
             Want to get in contact? <a class="button" href="mailto:edgar.shargh@gmail.com" target = "_blank" style = "color:rgb(131, 127, 127)">Send me an e-mail!</a>    
         </h2>
-        <div id="termynal" data-ty-typeDelay="20" data-ty-startDelay="5">
-            <span data-ty="input">./Portfolio</span>
-        </div id="termynal" style="visibility: hidden">
-        <script type="text/javascript" src="JS/Date.js"></script>
-        <script type="text/javascript" src="JS/Modal.js"></script>
-        <script type="text/javascript" src="JS/terminal.js"></script>
-        <body>
+        <script src="JS/Date.js"></script>
+        <script src="JS/Modal.js"></script>
+        <script src="JS/welcome.js" data-termynal-container="#termynal"></script>
+    <body>
