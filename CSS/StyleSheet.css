@@ -51,6 +51,7 @@ body figure{
 html{
     background-color: rgb(20, 20, 20);
     overflow: hidden;
+    cursor: grab;
 }
 
 
