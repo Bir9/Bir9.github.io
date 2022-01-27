@@ -1,3 +1,5 @@
+let ageEl = document.getElementById("age");
+
 window.onload = function() {
     function onLoad() {
         getAge()
@@ -7,5 +9,5 @@ window.onload = function() {
 function getAge() {
     var age = Math.floor((Date.now() - new Date("2008-01-19")) / 31536000000);
 
-    document.getElementById("age").innerHTML = age;
+    ageEl.innerText = time.toString()
 }
