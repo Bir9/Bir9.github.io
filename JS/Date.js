@@ -1,5 +1,7 @@
-function onLoad() {
-    getAge()
+window.onload = function() {
+    function onLoad() {
+        getAge()
+    }
 }
 
 function getAge() {
