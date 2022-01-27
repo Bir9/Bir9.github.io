@@ -1,9 +1,9 @@
-document.getElementById("age").innerHTML = calculate_age(new Date(2008, 1, 19));
-function calculate_age(dob){ 
-    var diff_ms = Date.now() - dob.getTime();
-    var age_dt = new Date(diff_ms); 
-  
-    return Math.abs(age_dt.getUTCFullYear() - 1970);
+function onLoad() {
+    getAge()
 }
 
+function getAge() {
+    var age = Math.floor((Date.now() - new Date("2008-01-19")) / 31536000000);
 
+    document.getElementById("age").innerHTML = age;
+}
